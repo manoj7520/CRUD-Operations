@@ -1,0 +1,22 @@
+#emain{
+    display: flex;
+}
+#emain1{
+    flex: 3;
+}
+#emain2{
+    margin-top: 100px;
+    flex: 4;
+    height: 10cm;
+    border: 1px solid black;
+text-align: center;
+}
+#emain3{
+    flex: 3;
+}
+button{
+    height: 40px;
+    width: 3cm;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.644);
+}

@@ -1,0 +1,24 @@
+#amain{
+    display: flex;
+}
+#amain1{
+    flex: 3;
+}
+#amain2{
+    margin-top: 100px;
+    flex: 4;
+    height: 10cm;
+    border: 1px solid black;
+text-align: center;
+}
+#amain3{
+    flex: 3;
+}
+button{
+    height: 40px;
+    width: 3cm;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.644);
+    font-size: x-large;
+    font-weight: 600;
+}

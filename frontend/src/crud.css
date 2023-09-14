@@ -1,0 +1,62 @@
+#cmain1{
+    height: 100px;
+    padding: 20px;
+}
+#cheading{
+  text-align: center;
+}
+#cmain2{
+    padding-top:40px;
+    margin-left: 10px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 99%
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  #cupdate{
+    width: 2cm;
+    height: 30px;
+    font-size: large;
+    font-weight: 600;
+  }
+  #cdelete{
+    width: 2cm;
+    height: 30px;
+    font-size: large;
+    font-weight: 600;
+  }
+  #cadd{
+    width: 5cm;
+    height: 40px;
+    margin-right: 2px;
+    font-size: x-large;
+    font-weight: 600;
+    
+  }
+  #cinput1{
+    height: 40px;
+    width: 10cm;
+  }
+  #cinput2{
+    height: 40px;
+    width: 20cm;
+  }
+  #cmain3>h4{
+    display: inline-flex;
+    margin-bottom: 10px;
+    margin-right: 5px;
+  }
+  #cmain3{
+    text-align: right;
+  }
