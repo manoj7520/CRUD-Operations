@@ -1,7 +1,11 @@
 const mongoose=require('mongoose')
 
 const listschemma = new mongoose.Schema({
-    username: {
+    title: {
+        type: String,
+        required: true
+    },
+    description: {
         type: String,
         required: true
     },

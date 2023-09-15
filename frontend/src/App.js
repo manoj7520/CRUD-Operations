@@ -14,7 +14,7 @@ function App() {
       <Route path="/" element={<CRUD/>}/> 
       <Route path="/add" element={<ADD/>}/> 
       <Route path="/crud" element={<CRUD/>}/> 
-      <Route path="/edit" element={<EDIT/>}/> 
+      <Route path="/edit/:id" element={<EDIT/>}/> 
       </Routes>
     </BrowserRouter>   
     </div>
