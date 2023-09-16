@@ -5,13 +5,23 @@ const get_Data=('/',async(req,res)=>{
     return res.status(200).json(saved_data)
 })
 
+const get_user=('/',async(req,res)=>{
+    try{
+        const saved=await listschemma.findById(req.params.id)
+        return res.status(200).json(saved)
+    }
+    catch(err){
+        console.log(err.message)
+    }
+})
+
 const post_userName=('/',async(req,res)=>{
     try{
-        const repeated_data=await listschemma.findOne({username:req.body.username})
+        const repeated_data=await listschemma.findOne({title:req.body.title})
         if(repeated_data){
          return  res.json("same data already given");
         }
-        const user_data=new listschemma({username:req.body.username})
+        const user_data=new listschemma({title:req.body.title,description:req.body.description})
         const saved_data=await user_data.save()
         res.json(saved_data)
     }
@@ -55,5 +65,6 @@ module.exports={
     delete_user,
     upadate_userName,
     post_userName,
-    get_Data
+    get_Data,
+    get_user
 }
