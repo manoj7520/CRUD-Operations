@@ -11,19 +11,16 @@ function CRUD() {
    const updateInputData=(value)=>{
     const updatedData=[...inputdata].concat(value);
     console.log(inputdata)
+    console.log(value)      
     setInputdata(updatedData)
   }
 
-  
-
   const handleDeleteTodo = (id) => {
-    console.log("manoj")
-    console.log(id);
     axios.delete(`http://localhost:5000/delete/${id}`)
       .then(res =>{ 
         const updatedData = inputdata.filter(m => m._id !== id);
         setInputdata(updatedData);
-        console.log(id) })
+     })
       .catch(error => console.error('Error deleting todo:', error ));
   };
   
