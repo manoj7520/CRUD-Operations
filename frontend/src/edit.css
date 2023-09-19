@@ -3,20 +3,31 @@
 }
 #emain1{
     flex: 3;
+    height: 100px;
+    padding: 20px;
 }
 #emain2{
     margin-top: 100px;
     flex: 4;
     height: 10cm;
     border: 1px solid black;
-text-align: center;
+text-align: center;  
+border-radius: 8px;                       
 }
 #emain3{
     flex: 3;
 }
-button{
-    height: 40px;
+
+#ubut{
+    background-color: rgba(81, 81, 81, 0.823);
+    margin-left: 50px;
+    padding-bottom: 10px;
     width: 3cm;
-    border: none;
-    background-color: rgba(128, 128, 128, 0.644);
+    border-radius: 8px;
+}
+#eallusers{
+    text-decoration: none;
+    font-size:large;
+    color: white;
+    font-weight: 500;
 }

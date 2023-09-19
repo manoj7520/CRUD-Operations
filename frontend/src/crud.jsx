@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './crud.css'
-import { Link, useNavigate } from 'react-router-dom'
-import ADD from './add'
+import { Link} from 'react-router-dom'
 import axios from 'axios'
-import EDIT from './edit'
 function CRUD() {
   
    const [inputdata,setInputdata]=useState([])
@@ -45,9 +43,9 @@ function CRUD() {
           </div>
   <table>
   <tr>
-    <th>Tile</th>
-    <th>Descripition</th>
-    <th>Action</th>
+    <th id='ctitle'>Title</th>
+    <th id='cdescription'>Descripition</th>
+    <th id='caction'>Action</th>
   </tr>
   <tr>  
 

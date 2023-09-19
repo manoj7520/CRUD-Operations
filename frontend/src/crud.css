@@ -12,45 +12,54 @@
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 99%
+    width: 99%;
   }
   
   td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid #ddd7d7;
     text-align: left;
     padding: 8px;
   }
   
   tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: #dddddd93;
   }
   #cupdate{
     width: 2cm;
     height: 30px;
     font-size: large;
     font-weight: 600;
+    background-color: rgb(123, 123, 123);
+    border-radius: 5px;
   }
   #cdelete{
     width: 2cm;
     height: 30px;
     font-size: large;
     font-weight: 600;
+    background-color: rgb(123, 123, 123);
+    border-radius: 5px;
   }
   #cadd{
-    width: 5cm;
+    width: 3cm;
     height: 40px;
     margin-right: 2px;
     font-size: x-large;
     font-weight: 600;
-    
+    background-color: rgb(123, 123, 123);
+    border-radius: 5px;
   }
   #cinput1{
     height: 40px;
     width: 10cm;
+    font-size: x-large;
+    font-family: Georgia, serif;
   }
   #cinput2{
     height: 40px;
     width: 20cm;
+    font-size: large;
+    font-family: Georgia, serif;
   }
   #cmain3>h4{
     display: inline-flex;
@@ -59,4 +68,18 @@ table {
   }
   #cmain3{
     text-align: right;
+  }
+  #caction{
+    width: 6cm;
+    height: 30px;
+    font-size: large;
+    font-weight: 600;
+  }
+  #cdescription{
+    height: 40px;
+    width: 20cm;
+  }
+  #ctitle{
+  height: 40px;
+  width: 10cm;
   }
